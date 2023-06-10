@@ -1,0 +1,64 @@
+body {
+    background-color: black;
+    justify-content: center;
+}
+.html-img, .item-left {
+    padding: 10px 0;
+}
+a {
+    color: black;
+}
+.container_big {
+    background-color: white;
+    margin: 5rem 10rem;
+}
+.first_rect {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    flex-flow: row wrap;
+}
+.brand{
+    display: flex;
+    width: 6.5rem;
+    justify-content: space-between;
+}
+.first_rect h1,h2{
+    margin: 0;
+    font-size: 1rem;
+}
+.img {
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 5px;
+    flex-flow: row wrap;
+    text-decoration: none;
+}
+.icons2{
+    display: flex;
+    width: 10rem;
+    justify-content: space-between;
+}
+.fa-regular {
+    margin: 0 10px;
+}
+.likes {
+    margin-left: 10px;
+}
+.likes > p{
+    margin: 0;
+    padding-top: 1rem;
+}
+.description {
+    margin: 0 10px;
+    padding: 1rem 0;
+}
+.description > p{
+    margin: 0;
+    text-align: justify;
+}
